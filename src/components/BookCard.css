@@ -1,0 +1,164 @@
+.card {
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2);
+  height: 15%;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 1%;
+  text-align: left;
+  font-family: arial;
+}
+
+.author {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* .card-img {
+  margin: 30px 20px 0 0;
+} */
+
+/* .card-img {
+  border: 7px solid rgb(0, 0, 0);
+  width: 80%;
+  height: 90%px;
+} */
+
+/* dropdown button */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+/* card two columns */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #dfe6e9;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  color: #2d3436;
+  margin: 20px 0 30px;
+}
+
+.card {
+  border-radius: 10px;
+  position: relative;
+  padding: 25px 15px;
+  background-color: #dbebeb;
+  margin: 50px 0;
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #00cec9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 1em;
+  color: #2d3436;
+  display: flex;
+  flex: 1;
+  margin: 10% 20px 0;
+}
+
+
+
+.bottom {
+  margin-top: 120px;
+}
+
+.info {
+  margin: 20px 0;
+  color: #1a7e76;
+} */
